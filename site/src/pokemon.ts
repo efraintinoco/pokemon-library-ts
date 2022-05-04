@@ -25,7 +25,7 @@ type Pokemon = {
         front_default: string;
     };
     abilities: [];
-    flavor_text_entries: string;
+    flavor_text_entries: FlavorText[];
 }
 
 type Abilities = {
@@ -48,7 +48,7 @@ function addPokemonAbilities(pokemon: Pokemon) {
         .find((flavor_text_entry: FlavorText) => flavor_text_entry.language.name === 'en')
     li.innerHTML = `
         <span class = "ability-name">"${titleName}"</span> 
-        <span class="ability-short-description">${flavor_text.flavor_text}</span>
+        <span class="ability-short-description">${flavor_text?.flavor_text ?? ""}</span>
         <br>
         `
     if ($ul) {
