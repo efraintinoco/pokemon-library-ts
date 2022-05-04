@@ -34,8 +34,6 @@ type Abilities = {
     };
 }
 
-
-
 type FlavorText = {
     flavor_text: string;
     language: {
