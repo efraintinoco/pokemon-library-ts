@@ -1,7 +1,5 @@
-7473
+7468
 46/home/twarre30/pokemon-library-ts/site/app.css1651696245538247200 0
-62/home/twarre30/pokemon-library-ts/site/dist/index.75a90472.css1651698930758247200 0
-65/home/twarre30/pokemon-library-ts/site/dist/index.1f978438.js.map1651698930778247200 0
 52/home/twarre30/pokemon-library-ts/site/dist/index.js1651698284058247200 0
 49/home/twarre30/pokemon-library-ts/site/.gitignore1651679418778247200 0
 51/home/twarre30/pokemon-library-ts/site/src/index.ts1651696118548247200 0
@@ -153,7 +151,7 @@
 83/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/regions/FO.js1651698364318247200 0
 83/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/regions/TO.js1651698365508247200 0
 83/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/regions/LY.js1651698364768247200 0
-43/home/twarre30/pokemon-library-ts/site/dist1651698930808247200 1
+43/home/twarre30/pokemon-library-ts/site/dist1651697705698247200 1
 83/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/regions/FK.js1651698364298247200 0
 83/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/regions/IL.js1651698364398247200 0
 83/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/regions/VN.js1651698365568247200 0
@@ -259,7 +257,6 @@
 101/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/features/css-text-align-last.js1651698363978247200 0
 93/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/features/user-timing.js1651698365548247200 0
 87/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/features/http2.js1651698364388247200 0
-61/home/twarre30/pokemon-library-ts/site/dist/index.1f978438.js1651698930758247200 0
 88/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/features/dnssec.js1651698364198247200 0
 100/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/features/css-matches-pseudo.js1651698363578247200 0
 94/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/features/offline-apps.js1651698365108247200 0
@@ -951,7 +948,7 @@
 84/home/twarre30/pokemon-library-ts/site/node_modules/cosmiconfig/dist/getDirectory.js1651698355758247200 0
 68/home/twarre30/pokemon-library-ts/site/node_modules/cosmiconfig/dist1651698359928247200 1
 73/home/twarre30/pokemon-library-ts/site/node_modules/cosmiconfig/README.md1651698359038247200 0
-49/home/twarre30/pokemon-library-ts/site/index.html1651698909438247200 0
+49/home/twarre30/pokemon-library-ts/site/index.html1651697013558247200 0
 76/home/twarre30/pokemon-library-ts/site/node_modules/cosmiconfig/package.json1651698356918247200 0
 63/home/twarre30/pokemon-library-ts/site/node_modules/cosmiconfig1651698358938247200 1
 79/home/twarre30/pokemon-library-ts/site/node_modules/to-fast-properties/index.js1651698354338247200 0
@@ -3538,7 +3535,7 @@
 74/home/twarre30/pokemon-library-ts/site/node_modules/msgpackr/node-index.js1651698357868247200 0
 83/home/twarre30/pokemon-library-ts/site/node_modules/jest-config/build/Deprecated.js1651698355558247200 0
 72/home/twarre30/pokemon-library-ts/site/node_modules/npm-run-path/license1651698354148247200 0
-51/home/twarre30/pokemon-library-ts/site/pokemon.html1651698920778247200 0
+51/home/twarre30/pokemon-library-ts/site/pokemon.html1651697046618247200 0
 84/home/twarre30/pokemon-library-ts/site/node_modules/jest-watcher/build/lib/scroll.js1651698357268247200 0
 84/home/twarre30/pokemon-library-ts/site/node_modules/type-fest/source/promisable.d.ts1651698359028247200 0
 86/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/features/spdy.js1651698365338247200 0
@@ -4199,7 +4196,6 @@
 100/home/twarre30/pokemon-library-ts/site/node_modules/@parcel/transformer-posthtml/node_modules/semver1651698356438247200 1
 85/home/twarre30/pokemon-library-ts/site/node_modules/@babel/helper-compilation-targets1651698356768247200 1
 88/home/twarre30/pokemon-library-ts/site/node_modules/css-tree/lib/syntax/config/walker.js1651698363578247200 0
-66/home/twarre30/pokemon-library-ts/site/dist/index.75a90472.css.map1651698930778247200 0
 84/home/twarre30/pokemon-library-ts/site/node_modules/@mischnic/json-sourcemap/LICENSE1651698354098247200 0
 90/home/twarre30/pokemon-library-ts/site/node_modules/term-size/vendor/windows/term-size.exe1651698356698247200 0
 101/home/twarre30/pokemon-library-ts/site/node_modules/caniuse-lite/data/features/css-media-scripting.js1651698363598247200 0
@@ -4393,7 +4389,7 @@
 89/home/twarre30/pokemon-library-ts/site/node_modules/@babel/types/lib/validators/isNode.js1651698363168247200 0
 76/home/twarre30/pokemon-library-ts/site/node_modules/escalade/sync/index.d.ts1651698356748247200 0
 86/home/twarre30/pokemon-library-ts/site/node_modules/css-select/lib/attributes.d.ts.map1651698358228247200 0
-52/home/twarre30/pokemon-library-ts/site/index.test.js1651698738258247200 0
+52/home/twarre30/pokemon-library-ts/site/index.test.js1651697938388247200 0
 93/home/twarre30/pokemon-library-ts/site/node_modules/css-tree/lib/syntax/node/AtrulePrelude.js1651698356928247200 0
 75/home/twarre30/pokemon-library-ts/site/node_modules/node-gyp-build/index.js1651698354888247200 0
 97/home/twarre30/pokemon-library-ts/site/node_modules/@parcel/transformer-css/src/CSSTransformer.js1651698355508247200 0
@@ -5869,7 +5865,6 @@
 113/home/twarre30/pokemon-library-ts/site/node_modules/@parcel/core/test/fixtures/common-targets-ignore/package.json1651698364058247200 0
 89/home/twarre30/pokemon-library-ts/site/node_modules/@parcel/cache/lib/IDBCache.browser.js1651698355508247200 0
 88/home/twarre30/pokemon-library-ts/site/node_modules/@parcel/core/test/fixtures/bundle.js1651698360998247200 0
-54/home/twarre30/pokemon-library-ts/site/dist/index.html1651698930758247200 0
 66/home/twarre30/pokemon-library-ts/site/node_modules/css-select/lib1651698359948247200 1
 106/home/twarre30/pokemon-library-ts/site/node_modules/@parcel/core/test/fixtures/invalid-source-not-file/src1651698362108247200 1
 115/home/twarre30/pokemon-library-ts/site/node_modules/@parcel/core/test/fixtures/invalid-source-not-file/src/index.js1651698362128247200 0

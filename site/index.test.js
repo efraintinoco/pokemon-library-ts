@@ -1,4 +1,4 @@
-const addPokemonImage = require("./index.js")
+const addPokemonImage = require("index.js")
 
 describe("add an image", () => {
   it("addPokemonImage", () => {
