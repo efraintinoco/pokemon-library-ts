@@ -24,8 +24,6 @@ function addPokemonImage(pokemon: Pokemon) {
   }
 }
 
-
-
 fetch(url)
     .then(response => {
         return response.json()
@@ -40,4 +38,9 @@ fetch(url)
         }
             addPokemonImage(response)
         })
-    })
+    }).catch((error) => {
+    const message = (error instanceof Error)
+      ? error.message
+      : "Unknown error"
+    console.error(message)
+  })
