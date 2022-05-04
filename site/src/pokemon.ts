@@ -1,6 +1,6 @@
-const main = document.querySelector("main")
-const ul = document.querySelector("ul")
-const spinner = document.querySelector(".spinner")
+const main = document.querySelector<HTMLDivElement>("main")
+const ul = document.querySelector<HTMLUListElement>("ul")
+const spinner = document.querySelector<HTMLImageElement>(".spinner")
 
 
 
