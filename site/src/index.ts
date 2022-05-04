@@ -8,10 +8,11 @@ type Pokemon = {
   sprites: {
     front_default: string[];
   };
+  results: string[];
   url: Request | string;
   error?: { message: string }[];
-  queryString: string[];
 };
+
 
 function addPokemonImage(pokemon: Pokemon) {
   const div = document.createElement("div")
@@ -27,23 +28,28 @@ function addPokemonImage(pokemon: Pokemon) {
   }
 }
 
+
+
+
 fetch(url)
-  .then(response => {
-    return response.json()
-  }).then(parsedResponse => {
-    const urls = parsedResponse.results.map((result: Pokemon) => result.url)
-    const fetches = urls.map((url: RequestInfo) => fetch(url).then(response => response.json()))
-    return Promise.all(fetches)
-  }).then(responses => {
-    responses.forEach(response => {
-      if ($spinner) {
-        $spinner.classList.add("hidden")
-      }
-      addPokemonImage(response)
-    })
-  }).catch((error) => {
+    .then(response => {
+        return response.json()
+    }).then(parsedResponse => {
+        const urls = parsedResponse.results.map((result: Pokemon) => result.url)
+        const fetches = urls.map((url: RequestInfo) => fetch(url).then(response => response.json()))
+        return Promise.all(fetches)
+    }).then(responses => {
+      responses.forEach(response => {
+        if ($spinner) {
+          $spinner.classList.add("hidden")
+        }
+            addPokemonImage(response)
+        })
+    }).catch((error) => {
     const message = (error instanceof Error)
       ? error.message
       : "Unknown error"
     console.error(message)
   })
+
+  module.exports(addPokemonImage)
