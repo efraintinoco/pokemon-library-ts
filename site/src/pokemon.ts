@@ -86,3 +86,5 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${queryString.get("pokemon")}`)
     })
 
 export { }
+
+module.exports(addPokemonImage, addPokemonAbilities)

@@ -1,4 +1,5 @@
-const addPokemonImage = require("index.js")
+const addPokemonImage = require("./index.js")
+const addPokemonAbility = require("./pokemon.js")
 
 describe("add an image", () => {
   it("addPokemonImage", () => {
@@ -6,3 +7,7 @@ describe("add an image", () => {
   })
 }
 )
+
+describe("add abilities", () => {
+  
+})
